@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.git.ui.theme.GitTheme
 
 class MainActivity : ComponentActivity() {
+    val test = "test"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
